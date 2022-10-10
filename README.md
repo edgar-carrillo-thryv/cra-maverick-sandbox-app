@@ -30,9 +30,14 @@ You will primarily be using the `src -> pages -> sandbox.js` file for exploring 
 ### Packages
 This app has specific package versions that are crucial in order to use Maverick. Please see below for a list of specific package versions Maverick projects require for use.
 
- - **react-router-dom**
-   - Please use version 5. Newer versions break components such as `<Navigation variant="list" />`
- - **react**
-   - Please use version 17, newer versions prevent the use of Maverick.
+- **react-router-dom**
+  - Please use version 5. Newer versions break components such as `<Navigation variant="list" />`
+- **react**
+  - Please use version 17, newer versions prevent the use of Maverick.
 - **@testing-library/react**
   - Please use version 12, version 13 drops support for react version 17 and earlier.
+
+### Resources
+- [Storybook - Maverick](https://main.d1vpc2eiy8nx58.amplifyapp.com/?path=/docs/ui-accordion--accordion)
+- [React Router DOM v5](https://v5.reactrouter.com/web/guides/quick-start)
+  
