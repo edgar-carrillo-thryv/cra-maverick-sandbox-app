@@ -23,7 +23,7 @@ Clone this repo
 - Tailwind CSS
 
 ## How to use
-You will primarily be using the `src -> pages -> sandbox.js` file for exploring the Maverick components. Please note, that the `src -> App.js` file also has react-router-dom changes that are important to know for using components such as `<Navigation list="variant">`
+You will primarily be using the `src -> pages -> sandbox.js` file for exploring the Maverick components. Please note, that the `src -> App.js` file also has react-router-dom changes that are important to know for using components such as `<Navigation variant="list">`
 
 ## Information
 
