@@ -1,11 +1,14 @@
 import './styles/App.css';
 import { Sandbox } from './pages/sandbox';
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen w-screen bg-orange-400">
-      <Sandbox />
-    </div>
+    <BrowserRouter>
+      <div className="flex items-center justify-center h-screen w-screen bg-orange-400">
+        <Sandbox />
+      </div>
+    </BrowserRouter>
   );
 }
 
